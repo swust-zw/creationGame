@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/other/other",
+    "pages/divide/recipe/recipe",
+    "pages/divide/ridepet/ridepet"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "创造与魔法攻略",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"/资源/图片资源/主页/首页前.png",
+        "selectedIconPath":"/资源/图片资源/主页/首页后.png"
+
+      },
+      {
+        "pagePath": "pages/other/other",
+        "text": "关于我们（待开发）",
+        "iconPath":"/资源/图片资源/主页/关于我们前.png",
+        "selectedIconPath":"/资源/图片资源/主页/关于我们后.png"
+      }
+    ]
+  }
+}

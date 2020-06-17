@@ -1,0 +1,28 @@
+<!--pages/divide/ridepet/ridepet.wxml-->
+
+<view class="recipe_home">
+		<!--坐骑导航栏-->
+		<view class="btn_recipe"  hover-class="hover" bindtap="select_rids" data-name="坐骑">坐骑</view>
+		<view class="btn_recipe"  hover-class="hover" bindtap="select_rids" data-name="宠物">宠物</view>
+		<view class="btn_recipe"  hover-class="hover" bindtap="select_rids" data-name="BOSS">BOSS</view>
+		<view class="btn_recipe"  hover-class="hover" bindtap="select_rids" data-name="家畜">家畜</view>
+		
+</view>
+
+
+
+	<view class="table">
+		<view class="table-tr">
+			<view class="table-th">图</view>
+			<view class="table-th">名字</view>
+			<view class="table-th">饲料</view>
+			
+		</view>
+
+		<view class="table-tr" wx:for="{{current_data}}">
+			<view class="table-td"><image class="img" src="{{item.img_path}}"></image></view>
+			<view class="table-td">{{item.name}}</view>
+			<view class="table-td"><text>{{item.food}}</text></view>
+			
+		</view>
+	</view>
