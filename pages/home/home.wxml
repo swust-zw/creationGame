@@ -2,7 +2,7 @@
 <view class="column_img">
 <view class="row_img">
   <view bindtap="goto_recipe">
-  <image src="../../资源/图片资源/食谱.png"></image>
+  <image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/食谱.png"></image>
   <view class="img_name">烹饪食谱</view>
   </view>
   
