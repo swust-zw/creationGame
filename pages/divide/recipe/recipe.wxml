@@ -22,9 +22,9 @@
 			<view class="table-th">组合</view>
 			<view class="table-th">
 				<view class="view_img">
-					<image class="img" src="/资源/图片资源/饱食度.png"></image>
-					<image class="img" src="/资源/图片资源/水滴.png"></image>
-					<image class="img" src="/资源/图片资源/心.png"></image>
+					<image class="img" src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/饱食度.png"></image>
+					<image class="img" src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/水滴.png"></image>
+					<image class="img" src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/心.png"></image>
 				</view>
 
 			</view>

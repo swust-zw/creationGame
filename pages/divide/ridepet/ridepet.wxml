@@ -16,13 +16,13 @@
 			<view class="table-th">图</view>
 			<view class="table-th">名字</view>
 			<view class="table-th">饲料</view>
-			
+			<view class="table-th">详细</view>
 		</view>
 
 		<view class="table-tr" wx:for="{{current_data}}">
 			<view class="table-td"><image class="img" src="{{item.img_path}}"></image></view>
 			<view class="table-td">{{item.name}}</view>
 			<view class="table-td"><text>{{item.food}}</text></view>
-			
+			<view class="table-td"><navigator url="/pages/divide/rid_detail/rid_detail?name={{item.name}}&img_path={{item.img_path}}">点我</navigator></view>
 		</view>
 	</view>

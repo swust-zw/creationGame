@@ -15,7 +15,7 @@ image{
   
 }
 .column_img{
-  height: 800rpx;
+  height: 750rpx;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
