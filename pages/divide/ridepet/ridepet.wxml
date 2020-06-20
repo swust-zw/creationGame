@@ -22,7 +22,7 @@
 		<view class="table-tr" wx:for="{{current_data}}">
 			<view class="table-td"><image class="img" src="{{item.img_path}}"></image></view>
 			<view class="table-td">{{item.name}}</view>
-			<view class="table-td"><text>{{item.food}}</text></view>
-			<view class="table-td"><navigator url="/pages/divide/rid_detail/rid_detail?name={{item.name}}&img_path={{item.img_path}}">点我</navigator></view>
+			<view class="table-td"><text>{{item.food}}\n{{item.num}}</text></view>
+			<view class="table-td"><navigator url="/pages/divide/ridepet/rid_detail/rid_detail?id={{item._id}}&class={{class}}">点我</navigator></view>
 		</view>
 	</view>

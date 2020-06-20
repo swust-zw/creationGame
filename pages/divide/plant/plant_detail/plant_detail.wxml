@@ -1,0 +1,6 @@
+<!--pages/divide/plant/plant_detail/plant_detail.wxml-->
+<view>
+	<image class="img" src="{{map1_path}}"></image>
+	<image class="img" src="{{map2_path}}"></image>
+	<image class="img" src="{{map3_path}}"></image>
+</view>

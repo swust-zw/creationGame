@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/divide/plant/plant_detail/plant_detail.js
 const db=wx.cloud.database()
 Page({
 
@@ -6,14 +6,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    map1_path:'',
+    map2_path:'',
+    map3_path:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      map1_path:options.map1_path,
+      map2_path:options.map2_path,
+      map3_path:options.map3_path,
+      
+      
+    })
   },
 
   /**
@@ -64,26 +72,5 @@ Page({
   onShareAppMessage: function () {
 
   },
-  goto_recipe:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/recipe/recipe',
-    })
-  },
-  goto_ridepet:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/ridepet/ridepet',
-    })
-  },
-  goto_plant:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/plant/plant',
-    })
-  },
-  goto_box:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/box/box',
-    })
-  },
-
 
 })

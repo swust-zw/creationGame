@@ -2,41 +2,59 @@
 <view class="column_img">
 	<view class="row_img">
 		<view bindtap="goto_recipe">
-			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/食谱.png"></image>
+			<image src="https://s1.ax1x.com/2020/06/19/Nu2f4x.png"></image>
 			<view class="img_name">烹饪食谱</view>
 		</view>
 
 		<view bindtap="goto_ridepet">
-			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/宠物饲料.png"></image>
+			<image src="https://s1.ax1x.com/2020/06/19/Nu2gb9.png"></image>
 			<view class="img_name">宠物大全</view>
 		</view>
+
+		<view bindtap="goto_plant">
+			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/植物.png"></image>
+			<view class="img_name">植物图鉴</view>
+		</view>
+		
+	</view>
+
+	<view class="row_img">
+		
+	<view bindtap="goto_box">
+			<image src="https://s1.ax1x.com/2020/06/20/NQsV1S.png"></image>
+			<view class="img_name">宝箱资源</view>
+		</view>
+
+
+
+		<view bindtap="goto_recipe">
+			<image src="https://s1.ax1x.com/2020/06/19/Nu2cDJ.png"></image>
+			<view class="img_name">钓鱼(待开发)</view>
+		</view>
+
+		
+
 		<view bindtap="goto_ridepet">
-			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/坐骑.png"></image>
+			<image src="https://s1.ax1x.com/2020/06/19/Nu27Ke.png"></image>
 			<view class="img_name">待开发</view>
 		</view>
 	</view>
 
+
 	<view class="row_img">
-		<view bindtap="goto_recipe">
-			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/汽车.png"></image>
+
+	<view bindtap="goto_recipe">
+			<image src="https://s1.ax1x.com/2020/06/19/Nu2WU1.png"></image>
 			<view class="img_name">汽车图鉴(待开发)</view>
 		</view>
-		<view bindtap="goto_recipe">
-			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/钓鱼.png"></image>
-			<view class="img_name">钓鱼(待开发)</view>
-		</view>
-	</view>
-
-	<view class="row_img">
-		<view bindtap="goto_recipe">
+		
+		<view >
 			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/食谱.png"></image>
 		</view>
-		<view bindtap="goto_recipe">
-			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/食谱.png"></image>
-		</view>
-		<view bindtap="goto_recipe">
+		<view >
 			<image src="cloud://creationdream-ltv8a.6372-creationdream-ltv8a-1302449196/食谱.png"></image>
 
 		</view>
 	</view>
+	
 </view>

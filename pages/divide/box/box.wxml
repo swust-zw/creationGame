@@ -1,0 +1,22 @@
+<!--pages/divide/box/box.wxml-->
+<view>
+	<view class="table">
+		<view class="table-tr">
+			<view class="table-th">图片</view>
+			<view class="table-th">名字</view>
+			<view class="table-th">刷新</view>
+			<view class="table-th">波动</view>
+			<view class="table-th">应用</view>
+		</view>
+
+		<view class="table-tr" wx:for="{{box_data.data}}">
+			<view class="table-td">
+				<image class="img" src="{{item.img_path}}"></image>
+			</view>
+			<view class="table-td">{{item.name}}</view>
+			<view class="table-td"><text>{{item.reset}}</text></view>
+			<view class="table-td"><text>{{item.flow}}</text></view>
+			<view class="table-td"><text>{{item.application}}</text></view>
+		</view>
+	</view>
+</view>

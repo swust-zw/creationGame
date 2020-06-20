@@ -1,0 +1,50 @@
+/* pages/divide/rid_detail.wxss */
+.title{
+  text-align: center;
+  font-size: 30rpx;
+  color:gray;
+}
+
+
+
+.img_item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+.table-tr {
+  display: table-row;
+  height: 92rpx;
+}
+
+.table-th {
+  display: table-cell;
+  font-weight: bold;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-td {
+  display: table-cell;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
+.img{
+  height: 350rpx;
+  width: 500rpx;
+}
+.map{
+  height: 600rpx;
+  width: 800rpx;
+}

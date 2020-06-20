@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/divide/rid_detail.js
 const db=wx.cloud.database()
 Page({
 
@@ -6,6 +6,10 @@ Page({
    * 页面的初始数据
    */
   data: {
+    item:'',
+    name:'',
+    img_path:'',
+    class:''
 
   },
 
@@ -13,6 +17,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log("跳转页面")
+    console.log(options)
+    console.log(options.class)
+    var a=options.class
+    var b="r5w4eXQwptD2oEahH9BknzyFwJDqS0Ma3OiYkVroSXWoAIf8"
+    db.collection(options.class).doc(options.id).get().then(res=>{
+      this.setData({
+        item:res.data
+      })
+      console.log(item)
+    })
+
 
   },
 
@@ -63,27 +79,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  goto_recipe:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/recipe/recipe',
-    })
-  },
-  goto_ridepet:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/ridepet/ridepet',
-    })
-  },
-  goto_plant:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/plant/plant',
-    })
-  },
-  goto_box:function(){
-    wx.navigateTo({
-      url: '../../pages/divide/box/box',
-    })
-  },
-
-
+  }
 })

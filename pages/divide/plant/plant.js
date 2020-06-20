@@ -1,13 +1,14 @@
-// pages/divide/rid_detail.js
+// pages/divide/plant/plant.js
+const db=wx.cloud.database()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name:'',
-    img_path:''
-    
+    data:[{'img_path': 'https://www.cncn.com/data/pic/201905/a95bf545f851205d15584176412885.jpg', 'name': '红莲', 'reset': '12小时','application':'主要作用是制作青鸟的饲料','map1_path':'http://newsimg.5054399.com/uploads/userup/1812/11113PO442.jpg','map2':''}],
+    plant_data:''
 
   },
 
@@ -15,11 +16,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    const promise=db.collection("plant").get({success:res=>{
     this.setData({
-      name:options.name,
-      img_path:options.img_path
+          plant_data:res
+          
+          
+        })
+      }
     })
-
+      
   },
 
   /**

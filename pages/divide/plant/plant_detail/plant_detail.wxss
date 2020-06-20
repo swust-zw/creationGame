@@ -1,0 +1,6 @@
+/* pages/divide/plant/plant_detail/plant_detail.wxss */
+
+.img{
+  width: 800rpx;
+  height: 600rpx;
+}

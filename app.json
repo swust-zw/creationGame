@@ -6,13 +6,18 @@
     "pages/other/other",
     "pages/divide/recipe/recipe",
     "pages/divide/ridepet/ridepet",
-    "pages/divide/rid_detail/rid_detail"
+    "pages/divide/ridepet/rid_detail/rid_detail",
+    "pages/divide/plant/plant",
+    "pages/divide/plant/plant_detail/plant_detail",
+    "pages/divide/box/box"
+
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "创造与魔法帮手",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
@@ -21,14 +26,14 @@
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "/主页/首页前.png",
-        "selectedIconPath": "/主页/首页后.png"
+        "iconPath": "/主页/主页.png",
+        "selectedIconPath": "/主页/主页后.png"
       },
       {
         "pagePath": "pages/other/other",
         "text": "关于我们（待开发）",
-        "iconPath": "/主页/关于我们前.png",
-        "selectedIconPath": "/主页/关于我们后.png"
+        "iconPath": "/主页/关于.png",
+        "selectedIconPath": "/主页/关于后.png"
       }
     ]
   }

@@ -1,5 +1,0 @@
-<!--pages/divide/rid_detail.wxml-->
-
-<view><text>{{name}}</text></view>
-<view><image src="{{img_path}}"></image></view>
-
